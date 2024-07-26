@@ -1,0 +1,100 @@
+.v-dialog>.v-card>:has(.v-card__title) {
+  overflow-wrap: break-word !important;
+}
+
+.custom-control_outlined .v-expansion-panel:before {
+  box-shadow: none;
+}
+
+.custom-control_outlined button {
+  min-height: 56px;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, .42);
+  border-style: solid;
+}
+
+.custom-control_outlined button:focus {
+  outline: none;
+}
+.v-dialog__content:has(.filter-brandCallLog){
+  justify-content: right;
+  align-items: baseline;
+  top: var(--dialog-ypos);
+}
+.filter-brandCallLog{
+  width: auto !important;
+}
+
+.v-card__text>.row>.col hr {
+  border-top: 0.5px solid #2D2D2D;
+}
+
+.my-autocomplete {
+  background-color: blue;
+  color: white;
+}
+
+.field>.v-input__control>.v-input__slot {
+  background-color: #0357D0 !important;
+  min-height: 36px;
+}
+
+.field>.v-input__control>.v-input__slot .v-label {
+  color: #fff !important;
+}
+
+.field>.v-input__control>.v-input__slot input {
+  color: #fff;
+}
+
+.field>.v-input__control>.v-input__slot .v-input__append-inner .v-icon {
+  color: #fff !important;
+}
+
+.field>.v-input__control>.v-input__slot>.v-input__icon .mdi-menu-down::before {
+  color: #fff !important;
+}
+
+.text-red-500 {
+  color: red;
+  font-weight: 500;
+}
+
+.nested_pending-desposition-dialog {
+  position: absolute;
+  left: var(--dialog-leftpos);
+  top: var(--dialog-yposi);
+  margin: 0;
+  
+}
+
+.filterchip {
+  padding: 7px 10px !important;
+  height: auto !important;
+}
+.menuItemCloseIcon {
+  min-height: auto !important;
+  border: none !important;
+}
+
+.pending_disposition_filter {
+  min-width: 1200px;
+  @media screen and (max-width: 1200px) {
+    min-width: auto; 
+  }
+  .v-card__text {
+    .btn-Select-menu::before{
+      opacity: 0 !important;
+    }
+    .btn-Select-menu:focus {
+      outline: 2px !important;
+    }
+    .v-btn {
+      min-height: 56px;
+      border-color: rgba(0,0,0,.38);
+      .v-btn__content {
+        justify-content: space-between;
+      }
+    }
+  }
+}

@@ -1,0 +1,902 @@
+{
+   "return_reasons": [{
+         "id": 1,
+         "reason": "Quality Issue",
+         "grading_required": true,
+         "quantity": 9,
+         "status": false,
+         "return_request": {
+            "pending_approval": true,
+            "approved": false,
+            "number": "R-416aaa",
+            "gate_pass": "G-dfb207",
+            "received_box_count": 2,
+            "actual_box_count": 2,
+            "warehouse": "Bangalore",
+            "vendor": "Ramji Tools",
+            "vendor_code": "RAF179",
+            "invoice_number": "a123",
+            "box_details": [{
+                  "number": "BX_496",
+                  "removal_order_id": "OD824",
+                  "pslip_number": "PS48324",
+                  "auth_id": "AI29534",
+                  "awb_number": 842848396,
+                  "box_condition": "Intact"
+               },
+               {
+                  "number": "BX_497",
+                  "removal_order_id": "OD825",
+                  "pslip_number": "PS48325",
+                  "auth_id": "AI29535",
+                  "awb_number": 842848397,
+                  "box_condition": "Intact"
+               }
+            ]
+         }
+      },
+      {
+         "id": 2,
+         "reason": "Transporter Issue",
+         "grading_required": false,
+         "status": false,
+         "return_request": {
+            "pending_approval": true,
+            "approved": false,
+            "number": "R-742cae",
+            "gate_pass": "G-073141",
+            "received_box_count": 2,
+            "actual_box_count": 2,
+            "warehouse": "Bangalore",
+            "vendor": "Ramji Tools",
+            "vendor_code": "RAF179",
+            "invoice_number": "a123",
+            "box_details": [{
+                  "number": "BX_492",
+                  "removal_order_id": "OD820",
+                  "pslip_number": "PS48320",
+                  "auth_id": "AI29530",
+                  "awb_number": 842848392,
+                  "box_condition": "Intact"
+               },
+               {
+                  "number": "BX_493",
+                  "removal_order_id": "OD821",
+                  "pslip_number": "PS48321",
+                  "auth_id": "AI29531",
+                  "awb_number": 842848393,
+                  "box_condition": "Intact"
+               }
+            ]
+         },
+         "quantity": 8
+      },
+      {
+         "id": 3,
+         "reason": "Transit Damage",
+         "status": false,
+         "return_request": {
+            "pending_approval": true,
+            "approved": false,
+            "number": "R-30b17e",
+            "gate_pass": "G-a4c78c",
+            "received_box_count": 2,
+            "actual_box_count": 2,
+            "warehouse": "Bangalore",
+            "vendor": "Ramji Tools",
+            "vendor_code": "RAF179",
+            "invoice_number": "a123",
+            "box_details": [{
+                  "number": "BX_489",
+                  "removal_order_id": "OD817",
+                  "pslip_number": "PS48317",
+                  "auth_id": "AI29527",
+                  "awb_number": 842848389,
+                  "box_condition": "Intact"
+               },
+               {
+                  "number": "BX_490",
+                  "removal_order_id": "OD818",
+                  "pslip_number": "PS48318",
+                  "auth_id": "AI29528",
+                  "awb_number": 842848390,
+                  "box_condition": "Intact"
+               }
+            ]
+         },
+         "quantity": 3
+      },
+      {
+         "id": 4,
+         "reason": "Short / Excess / Wrong Supply",
+         "grading_required": true,
+         "status": false,
+         "return_request": {
+            "pending_approval": true,
+            "approved": false,
+            "number": "R-db619b",
+            "gate_pass": "G-573320",
+            "received_box_count": 2,
+            "actual_box_count": 2,
+            "warehouse": "Bangalore",
+            "vendor": "Ramji Tools",
+            "vendor_code": "RAF179",
+            "invoice_number": "a123",
+            "box_details": [{
+                  "number": "BX_485",
+                  "removal_order_id": "OD813",
+                  "pslip_number": "PS48313",
+                  "auth_id": "AI29523",
+                  "awb_number": 842848385,
+                  "box_condition": "Intact"
+               },
+               {
+                  "number": "BX_486",
+                  "removal_order_id": "OD814",
+                  "pslip_number": "PS48314",
+                  "auth_id": "AI29524",
+                  "awb_number": 842848386,
+                  "box_condition": "Intact"
+               }
+            ]
+         },
+         "quantity": 7
+      },
+      {
+         "id": 5,
+         "reason": "MRP / BAR Code / Documentation Issue",
+         "grading_required": false,
+         "status": false,
+         "return_request": {
+            "pending_approval": true,
+            "approved": false,
+            "number": "R-8b4d56",
+            "gate_pass": "G-d69358",
+            "received_box_count": 2,
+            "actual_box_count": 2,
+            "warehouse": "Bangalore",
+            "vendor": "Ramji Tools",
+            "vendor_code": "RAF179",
+            "invoice_number": "a123",
+            "box_details": [{
+                  "number": "BX_479",
+                  "removal_order_id": "OD807",
+                  "pslip_number": "PS48307",
+                  "auth_id": "AI29517",
+                  "awb_number": 842848379,
+                  "box_condition": "Intact"
+               },
+               {
+                  "number": "BX_480",
+                  "removal_order_id": "OD808",
+                  "pslip_number": "PS48308",
+                  "auth_id": "AI29518",
+                  "awb_number": 842848380,
+                  "box_condition": "Intact"
+               }
+            ]
+         },
+         "quantity": 9
+      },
+      {
+         "id": 6,
+         "reason": "Customer Service Error",
+         "grading_required": true,
+         "status": false,
+         "return_request": {
+            "pending_approval": true,
+            "approved": false,
+            "number": "R-823df1",
+            "gate_pass": "G-378c24",
+            "received_box_count": 2,
+            "actual_box_count": 2,
+            "warehouse": "Bangalore",
+            "vendor": "Shankar Hardwares",
+            "vendor_code": "RCT159",
+            "invoice_number": "s123",
+            "box_details": [{
+                  "number": "BX_475",
+                  "removal_order_id": "OD803",
+                  "pslip_number": "PS48303",
+                  "auth_id": "AI29513",
+                  "awb_number": 842848375,
+                  "box_condition": "Intact"
+               },
+               {
+                  "number": "BX_476",
+                  "removal_order_id": "OD804",
+                  "pslip_number": "PS48304",
+                  "auth_id": "AI29514",
+                  "awb_number": 842848376,
+                  "box_condition": "Intact"
+               }
+            ]
+         },
+         "quantity": 5
+      },
+      {
+         "id": 7,
+         "reason": "Commercial Business Reason",
+         "grading_required": false,
+         "status": false,
+         "return_request": {
+            "pending_approval": true,
+            "approved": false,
+            "number": "R-fb6122",
+            "gate_pass": "G-474935",
+            "received_box_count": 2,
+            "actual_box_count": 2,
+            "warehouse": "Bangalore",
+            "vendor": "Decker Tools",
+            "vendor_code": "RIL241",
+            "invoice_number": "d123",
+            "box_details": [{
+                  "number": "BX_471",
+                  "removal_order_id": "OD799",
+                  "pslip_number": "PS48299",
+                  "auth_id": "AI29509",
+                  "awb_number": 842848371,
+                  "box_condition": "Intact"
+               },
+               {
+                  "number": "BX_472",
+                  "removal_order_id": "OD800",
+                  "pslip_number": "PS48300",
+                  "auth_id": "AI29510",
+                  "awb_number": 842848372,
+                  "box_condition": "Intact"
+               }
+            ]
+         },
+         "quantity": 6
+      },
+      {
+         "id": 8,
+         "reason": "TIN NO / Way Bill / Road Permit Issue",
+         "grading_required": false,
+         "status": false,
+         "return_request": {
+            "pending_approval": true,
+            "approved": false,
+            "number": "R-4b90b8",
+            "gate_pass": "G-058bf1",
+            "received_box_count": 2,
+            "actual_box_count": 2,
+            "warehouse": "Bangalore",
+            "vendor": "Krishna Spares",
+            "vendor_code": "RPC422",
+            "invoice_number": "k123",
+            "box_details": [{
+                  "number": "BX_466",
+                  "removal_order_id": "OD794",
+                  "pslip_number": "PS48294",
+                  "auth_id": "AI29504",
+                  "awb_number": 842848366,
+                  "box_condition": "Intact"
+               },
+               {
+                  "number": "BX_467",
+                  "removal_order_id": "OD795",
+                  "pslip_number": "PS48295",
+                  "auth_id": "AI29505",
+                  "awb_number": 842848367,
+                  "box_condition": "Intact"
+               }
+            ]
+         },
+         "quantity": 4
+      },
+      {
+         "id": 9,
+         "reason": "Product Packaging Issue",
+         "grading_required": true,
+         "status": false,
+         "return_request": {
+            "pending_approval": true,
+            "approved": false,
+            "number": "R-bdf510",
+            "gate_pass": "G-bb6e8c",
+            "received_box_count": 2,
+            "actual_box_count": 2,
+            "warehouse": "Bangalore",
+            "vendor": "Mayank Parts",
+            "vendor_code": "RKP471",
+            "invoice_number": "m123",
+            "box_details": [{
+                  "number": "BX_462",
+                  "removal_order_id": "OD790",
+                  "pslip_number": "PS48290",
+                  "auth_id": "AI29500",
+                  "awb_number": 842848362,
+                  "box_condition": "Intact"
+               },
+               {
+                  "number": "BX_463",
+                  "removal_order_id": "OD791",
+                  "pslip_number": "PS48291",
+                  "auth_id": "AI29501",
+                  "awb_number": 842848363,
+                  "box_condition": "Intact"
+               }
+            ]
+         },
+         "quantity": 2
+      },
+      {
+         "id": 10,
+         "reason": "PO Date Expiry",
+         "grading_required": false,
+         "status": false,
+         "return_request": {
+            "pending_approval": true,
+            "approved": false,
+            "number": "R-5d9815",
+            "gate_pass": "G-0908e3",
+            "received_box_count": 2,
+            "actual_box_count": 2,
+            "warehouse": "Bangalore",
+            "vendor": "Ramji Tools",
+            "vendor_code": "RAF179",
+            "invoice_number": "a123",
+            "box_details": [{
+                  "number": "BX_458",
+                  "removal_order_id": "OD786",
+                  "pslip_number": "PS48286",
+                  "auth_id": "AI29496",
+                  "awb_number": 842848358,
+                  "box_condition": "Intact"
+               },
+               {
+                  "number": "BX_459",
+                  "removal_order_id": "OD787",
+                  "pslip_number": "PS48287",
+                  "auth_id": "AI29497",
+                  "awb_number": 842848359,
+                  "box_condition": "Intact"
+               }
+            ]
+         },
+         "quantity": 4
+      },
+      {
+         "id": 11,
+         "reason": "Warranty Material",
+         "grading_required": true,
+         "status": false,
+         "return_request": {
+            "pending_approval": true,
+            "approved": false,
+            "number": "R-efc29a",
+            "gate_pass": "G-04b523",
+            "received_box_count": 2,
+            "actual_box_count": 2,
+            "warehouse": "Bangalore",
+            "vendor": "Krishna Spares",
+            "vendor_code": "RPC422",
+            "invoice_number": "k123",
+            "box_details": [{
+                  "number": "BX_454",
+                  "removal_order_id": "OD782",
+                  "pslip_number": "PS48282",
+                  "auth_id": "AI29492",
+                  "awb_number": 842848354,
+                  "box_condition": "Intact"
+               },
+               {
+                  "number": "BX_455",
+                  "removal_order_id": "OD783",
+                  "pslip_number": "PS48283",
+                  "auth_id": "AI29493",
+                  "awb_number": 842848355,
+                  "box_condition": "Intact"
+               }
+            ]
+         },
+         "quantity": 8
+      },
+      {
+         "id": 12,
+         "reason": "DEMO Material",
+         "grading_required": true,
+         "status": false,
+         "return_request": {
+            "pending_approval": true,
+            "approved": false,
+            "number": "R-8971d2",
+            "gate_pass": "G-60e98c",
+            "received_box_count": 2,
+            "actual_box_count": 2,
+            "warehouse": "Bangalore",
+            "vendor": "Shankar Hardwares",
+            "vendor_code": "RCT159",
+            "invoice_number": "s123",
+            "box_details": [{
+                  "number": "BX_450",
+                  "removal_order_id": "OD778",
+                  "pslip_number": "PS48278",
+                  "auth_id": "AI29488",
+                  "awb_number": 842848350,
+                  "box_condition": "Intact"
+               },
+               {
+                  "number": "BX_451",
+                  "removal_order_id": "OD779",
+                  "pslip_number": "PS48279",
+                  "auth_id": "AI29489",
+                  "awb_number": 842848351,
+                  "box_condition": "Intact"
+               }
+            ]
+         },
+         "quantity": 5
+      },
+      {
+         "id": 13,
+         "reason": "Partial Service Support – Product",
+         "grading_required": true,
+         "status": false,
+         "return_request": {
+            "pending_approval": true,
+            "approved": true,
+            "number": "R-981982",
+            "gate_pass": "G-92f086",
+            "received_box_count": 2,
+            "actual_box_count": 2,
+            "warehouse": "Bangalore",
+            "vendor": "Krishna Spares",
+            "vendor_code": "RPC422",
+            "invoice_number": "k123",
+            "box_details": [{
+                  "number": "BX_446",
+                  "removal_order_id": "OD774",
+                  "pslip_number": "PS48274",
+                  "auth_id": "AI29484",
+                  "awb_number": 842848346,
+                  "box_condition": "Intact"
+               },
+               {
+                  "number": "BX_447",
+                  "removal_order_id": "OD775",
+                  "pslip_number": "PS48275",
+                  "auth_id": "AI29485",
+                  "awb_number": 842848347,
+                  "box_condition": "Intact"
+               }
+            ]
+         },
+         "quantity": 6
+      },
+      {
+         "id": 14,
+         "reason": "Repair & Calibration",
+         "grading_required": true,
+         "status": false,
+         "return_request": {
+            "pending_approval": true,
+            "approved": true,
+            "number": "R-0f79b6",
+            "gate_pass": "G-92f086",
+            "received_box_count": 2,
+            "actual_box_count": 2,
+            "warehouse": "Bangalore",
+            "vendor": "Ramji Tools",
+            "vendor_code": "RAF179",
+            "invoice_number": "a123",
+            "box_details": [{
+                  "number": "BX_442",
+                  "removal_order_id": "OD770",
+                  "pslip_number": "PS48270",
+                  "auth_id": "AI29480",
+                  "awb_number": 842848342,
+                  "box_condition": "Intact"
+               },
+               {
+                  "number": "BX_443",
+                  "removal_order_id": "OD771",
+                  "pslip_number": "PS48271",
+                  "auth_id": "AI29481",
+                  "awb_number": 842848343,
+                  "box_condition": "Intact"
+               }
+            ]
+         },
+         "quantity": 5
+      },
+      {
+         "id": 15,
+         "reason": "Wrong Issue",
+         "grading_required": true,
+         "status": false,
+         "return_request": {
+            "pending_approval": true,
+            "approved": true,
+            "number": "R-335e27",
+            "gate_pass": "G-0a5a97",
+            "received_box_count": 2,
+            "actual_box_count": 2,
+            "warehouse": "Bangalore",
+            "vendor": "Krishna Spares",
+            "vendor_code": "RPC422",
+            "invoice_number": "k123",
+            "box_details": [{
+                  "number": "BX_438",
+                  "removal_order_id": "OD766",
+                  "pslip_number": "PS48266",
+                  "auth_id": "AI29476",
+                  "awb_number": 842848338,
+                  "box_condition": "Intact"
+               },
+               {
+                  "number": "BX_439",
+                  "removal_order_id": "OD767",
+                  "pslip_number": "PS48267",
+                  "auth_id": "AI29477",
+                  "awb_number": 842848339,
+                  "box_condition": "Intact"
+               }
+            ]
+         },
+         "quantity": 9
+      },
+      {
+         "id": 16,
+         "reason": "Vendor Issue",
+         "grading_required": true,
+         "status": false,
+         "return_request": {
+            "pending_approval": true,
+            "approved": true,
+            "number": "R-188fc7",
+            "gate_pass": "G-27633c",
+            "received_box_count": 2,
+            "actual_box_count": 2,
+            "warehouse": "Bangalore",
+            "vendor": "Ramji Tools",
+            "vendor_code": "RAF179",
+            "invoice_number": "a123",
+            "box_details": [{
+                  "number": "BX_434",
+                  "removal_order_id": "OD762",
+                  "pslip_number": "PS48262",
+                  "auth_id": "AI29472",
+                  "awb_number": 842848334,
+                  "box_condition": "Intact"
+               },
+               {
+                  "number": "BX_435",
+                  "removal_order_id": "OD763",
+                  "pslip_number": "PS48263",
+                  "auth_id": "AI29473",
+                  "awb_number": 842848335,
+                  "box_condition": "Intact"
+               }
+            ]
+         },
+         "quantity": 6
+      },
+      {
+         "id": 17,
+         "reason": "Warranty Return-Modern Channel",
+         "grading_required": true,
+         "status": false,
+         "return_request": {
+            "pending_approval": true,
+            "approved": true,
+            "number": "R-c77398",
+            "gate_pass": "G-a018cb",
+            "received_box_count": 2,
+            "actual_box_count": 2,
+            "warehouse": "Bangalore",
+            "vendor": "Shankar Hardwares",
+            "vendor_code": "RCT159",
+            "invoice_number": "s123",
+            "box_details": [{
+                  "number": "BX_430",
+                  "removal_order_id": "OD758",
+                  "pslip_number": "PS48258",
+                  "auth_id": "AI29468",
+                  "awb_number": 842848330,
+                  "box_condition": "Intact"
+               },
+               {
+                  "number": "BX_431",
+                  "removal_order_id": "OD759",
+                  "pslip_number": "PS48259",
+                  "auth_id": "AI29469",
+                  "awb_number": 842848331,
+                  "box_condition": "Intact"
+               }
+            ]
+         },
+         "quantity": 4
+      },
+      {
+         "id": 18,
+         "reason": "Consignment Refuse By Customer",
+         "grading_required": false,
+         "status": false,
+         "return_request": {
+            "pending_approval": true,
+            "approved": true,
+            "number": "R-57fbde",
+            "gate_pass": "G-ff5165",
+            "received_box_count": 2,
+            "actual_box_count": 2,
+            "warehouse": "Bangalore",
+            "vendor": "Krishna Spares",
+            "vendor_code": "RPC422",
+            "invoice_number": "k123",
+            "box_details": [{
+                  "number": "BX_426",
+                  "removal_order_id": "OD754",
+                  "pslip_number": "PS48254",
+                  "auth_id": "AI29464",
+                  "awb_number": 842848326,
+                  "box_condition": "Intact"
+               },
+               {
+                  "number": "BX_427",
+                  "removal_order_id": "OD755",
+                  "pslip_number": "PS48255",
+                  "auth_id": "AI29465",
+                  "awb_number": 842848327,
+                  "box_condition": "Intact"
+               }
+            ]
+         },
+         "quantity": 5
+      },
+      {
+         "id": 19,
+         "reason": "Chop Saw Sintered Part Quality Issue",
+         "grading_required": true,
+         "status": false,
+         "return_request": {
+            "pending_approval": true,
+            "approved": true,
+            "number": "R-8971d2",
+            "gate_pass": "G-375826",
+            "received_box_count": 2,
+            "actual_box_count": 2,
+            "warehouse": "Bangalore",
+            "invoice_number": "s123",
+            "vendor_code": "RCT159",
+            "vendor": "Shankar Hardwares",
+            "box_details": [{
+                  "number": "BX_422",
+                  "removal_order_id": "OD750",
+                  "pslip_number": "PS48250",
+                  "auth_id": "AI29460",
+                  "awb_number": 842848322,
+                  "box_condition": "Intact"
+               },
+               {
+                  "number": "BX_423",
+                  "removal_order_id": "OD751",
+                  "pslip_number": "PS48251",
+                  "auth_id": "AI29461",
+                  "awb_number": 842848323,
+                  "box_condition": "Intact"
+               }
+            ]
+         },
+         "quantity": 8
+      },
+      {
+         "id": 20,
+         "reason": "Post GST Taxation Issue",
+         "grading_required": false,
+         "status": false,
+         "return_request": {
+            "pending_approval": true,
+            "approved": true,
+            "number": "R-fdea5f",
+            "gate_pass": "G-7d21a4",
+            "received_box_count": 2,
+            "actual_box_count": 2,
+            "warehouse": "Bangalore",
+            "invoice_number": "a123",
+            "vendor_code": "RAF179",
+            "vendor": "Ramji Tools",
+            "box_details": [{
+                  "number": "BX_418",
+                  "removal_order_id": "OD746",
+                  "pslip_number": "PS48246",
+                  "auth_id": "AI29456",
+                  "awb_number": 842848318,
+                  "box_condition": "Intact"
+               },
+               {
+                  "number": "BX_419",
+                  "removal_order_id": "OD747",
+                  "pslip_number": "PS48247",
+                  "auth_id": "AI29457",
+                  "awb_number": 842848319,
+                  "box_condition": "Intact"
+               }
+            ]
+         },
+         "quantity": 6
+      },
+      {
+         "id": 21,
+         "reason": "Spares Availability Issue",
+         "grading_required": true,
+         "status": false,
+         "return_request": {
+            "pending_approval": true,
+            "approved": true,
+            "number": "R-85215c",
+            "gate_pass": "G-f24127",
+            "received_box_count": 2,
+            "actual_box_count": 2,
+            "warehouse": "Bangalore",
+            "invoice_number": "k123",
+            "vendor_code": "RPC422",
+            "vendor": "Krishna Spares",
+            "box_details": [{
+                  "number": "BX_414",
+                  "removal_order_id": "OD742",
+                  "pslip_number": "PS48242",
+                  "auth_id": "AI29452",
+                  "awb_number": 842848314,
+                  "box_condition": "Intact"
+               },
+               {
+                  "number": "BX_415",
+                  "removal_order_id": "OD743",
+                  "pslip_number": "PS48243",
+                  "auth_id": "AI29453",
+                  "awb_number": 842848315,
+                  "box_condition": "Intact"
+               }
+            ]
+         },
+         "quantity": 5
+      },
+      {
+         "id": 22,
+         "reason": "Bandsaw-weld Joind Breakege",
+         "grading_required": true,
+         "status": false,
+         "return_request": {
+            "pending_approval": true,
+            "approved": true,
+            "number": "R-a0b3ef",
+            "gate_pass": "G-53ba51",
+            "received_box_count": 2,
+            "actual_box_count": 2,
+            "warehouse": "Bangalore",
+            "vendor": "Shankar Hardwares",
+            "vendor_code": "RCT159",
+            "invoice_number": "s123",
+            "box_details": [{
+                  "number": "BX_410",
+                  "removal_order_id": "OD738",
+                  "pslip_number": "PS48238",
+                  "auth_id": "AI29448",
+                  "awb_number": 842848310,
+                  "box_condition": "Intact"
+               },
+               {
+                  "number": "BX_411",
+                  "removal_order_id": "OD739",
+                  "pslip_number": "PS48239",
+                  "auth_id": "AI29449",
+                  "awb_number": 842848311,
+                  "box_condition": "Intact"
+               }
+            ]
+         },
+         "quantity": 9
+      },
+      {
+         "id": 23,
+         "reason": "Bandsaw Quality Issue/Any Other Issue",
+         "grading_required": true,
+         "status": false,
+         "return_request": {
+            "pending_approval": true,
+            "approved": true,
+            "number": "R-079e05",
+            "gate_pass": "G-2fe7a6",
+            "received_box_count": 2,
+            "actual_box_count": 2,
+            "warehouse": "Bangalore",
+            "vendor": "Ramji Tools",
+            "vendor_code": "RAF179",
+            "invoice_number": "a123",
+            "box_details": [{
+                  "number": "BX_406",
+                  "removal_order_id": "OD734",
+                  "pslip_number": "PS48234",
+                  "auth_id": "AI29444",
+                  "awb_number": 842848306,
+                  "box_condition": "Intact"
+               },
+               {
+                  "number": "BX_407",
+                  "removal_order_id": "OD735",
+                  "pslip_number": "PS48235",
+                  "auth_id": "AI29445",
+                  "awb_number": 842848307,
+                  "box_condition": "Intact"
+               }
+            ]
+         },
+         "quantity": 2
+      },
+      {
+         "id": 24,
+         "reason": "Bandsaw Teeth Broken",
+         "grading_required": true,
+         "status": false,
+         "return_request": {
+            "pending_approval": true,
+            "approved": true,
+            "number": "R-e4037d",
+            "gate_pass": "G-a8dbae",
+            "received_box_count": 2,
+            "actual_box_count": 2,
+            "warehouse": "Bangalore",
+            "vendor": "Krishna Spares",
+            "vendor_code": "RPC422",
+            "invoice_number": "k123",
+            "box_details": [{
+                  "number": "BX_402",
+                  "removal_order_id": "OD730",
+                  "pslip_number": "PS48230",
+                  "auth_id": "AI29440",
+                  "awb_number": 842848302,
+                  "box_condition": "Intact"
+               },
+               {
+                  "number": "BX_403",
+                  "removal_order_id": "OD731",
+                  "pslip_number": "PS48231",
+                  "auth_id": "AI29441",
+                  "awb_number": 842848303,
+                  "box_condition": "Intact"
+               }
+            ]
+         },
+         "quantity": 1
+      },
+      {
+         "id": 25,
+         "reason": "Call Back Due To Customer Non Acceptance",
+         "grading_required": false,
+         "status": false,
+         "return_request": {
+            "pending_approval": true,
+            "approved": true,
+            "number": "R-aab122",
+            "gate_pass": "G-f14107",
+            "received_box_count": 2,
+            "actual_box_count": 2,
+            "warehouse": "Bangalore",
+            "vendor": "Shankar Hardwares",
+            "vendor_code": "RCT159",
+            "invoice_number": "s123",
+            "box_details": [{
+                  "number": "BX_399",
+                  "removal_order_id": "OD727",
+                  "pslip_number": "PS48227",
+                  "auth_id": "AI29437",
+                  "awb_number": 842848299,
+                  "box_condition": "Intact"
+               },
+               {
+                  "number": "BX_400",
+                  "removal_order_id": "OD728",
+                  "pslip_number": "PS48228",
+                  "auth_id": "AI29438",
+                  "awb_number": 842848300,
+                  "box_condition": "Intact"
+               }               
+            ]
+         },
+         "quantity": 3
+      }
+   ]
+}

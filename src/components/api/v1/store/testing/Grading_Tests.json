@@ -1,0 +1,1119 @@
+{
+   "tests":{
+      "Ref_1":{
+         "test_type":"Packaging",
+         "test":"",
+         "picture":true,
+         "annotation":false,
+         "annotations":[
+
+         ],
+         "annotation_label":"",
+         "picture_labels":[
+
+         ],
+         "options":[
+            {
+               "value":"Seal Pack",
+               "route":"End",
+               "output":"Seal Pack",
+               "picture":true,
+               "annotation":false,
+               "annotation_label":"",
+               "annotations":[
+
+               ],
+               "picture_labels":[
+
+               ]
+            },
+            {
+               "value":"Open Box",
+               "route":"Ref_7",
+               "output":"Open Box",
+               "picture":true,
+               "annotation":false,
+               "annotation_label":"",
+               "annotations":[
+
+               ],
+               "picture_labels":[
+
+               ]
+            },
+            {
+               "value":"Minor Damage",
+               "route":"Ref_7",
+               "output":"Minor Damage",
+               "picture":true,
+               "annotation":false,
+               "annotation_label":"",
+               "annotations":[
+
+               ],
+               "picture_labels":[
+
+               ]
+            },
+            {
+               "value":"Major Damage",
+               "route":"Ref_7",
+               "output":"Major Damage",
+               "picture":true,
+               "annotation":false,
+               "annotation_label":"",
+               "annotations":[
+
+               ],
+               "picture_labels":[
+
+               ]
+            },
+            {
+               "value":"Not Available",
+               "route":"Ref_7",
+               "output":"Not Available",
+               "picture":true,
+               "annotation":false,
+               "annotation_label":"",
+               "annotations":[
+
+               ],
+               "picture_labels":[
+
+               ]
+            },
+            {
+               "value":"Brown Box Available",
+               "route":"Ref_7",
+               "output":"Brown Box Available",
+               "picture":true,
+               "annotation":false,
+               "annotation_label":"",
+               "annotations":[
+
+               ],
+               "picture_labels":[
+
+               ]
+            }
+         ]
+      },
+      "Ref_7":{
+         "test_type":"Item Condition",
+         "test":"",
+         "picture":true,
+         "annotation":true,
+         "annotations":[
+            "Like New",
+            "Minor Scratch",
+            "Minor Dent",
+            "Minor Damage",
+            "Major Scratch",
+            "Major Dent",
+            "Major Damage"
+         ],
+         "annotation_label":"Physical",
+         "picture_labels":[
+            "Left",
+            "Right",
+            "Top",
+            "Bottom"
+         ],
+         "options":[
+            {
+               "value":"Unused Returned",
+               "route":"Ref_13",
+               "output":"Unused Returned",
+               "picture":true,
+               "annotation":true,
+               "annotation_label":"Physical",
+               "annotations":[
+                  "Like New",
+                  "Minor Scratch",
+                  "Minor Dent",
+                  "Minor Damage",
+                  "Major Scratch",
+                  "Major Dent",
+                  "Major Damage"
+               ],
+               "picture_labels":[
+                  "Left",
+                  "Right",
+                  "Top",
+                  "Bottom"
+               ]
+            },
+            {
+               "value":"Used",
+               "route":"Ref_13",
+               "output":"Used",
+               "picture":true,
+               "annotation":true,
+               "annotation_label":"Physical",
+               "annotations":[
+                  "Like New",
+                  "Minor Scratch",
+                  "Minor Dent",
+                  "Minor Damage",
+                  "Major Scratch",
+                  "Major Dent",
+                  "Major Damage"
+               ],
+               "picture_labels":[
+                  "Left",
+                  "Right",
+                  "Top",
+                  "Bottom"
+               ]
+            },
+            {
+               "value":"Missing",
+               "route":"End",
+               "output":"Missing",
+               "picture":true,
+               "annotation":true,
+               "annotation_label":"Physical",
+               "annotations":[
+                  "Like New",
+                  "Minor Scratch",
+                  "Minor Dent",
+                  "Minor Damage",
+                  "Major Scratch",
+                  "Major Dent",
+                  "Major Damage"
+               ],
+               "picture_labels":[
+                  "Left",
+                  "Right",
+                  "Top",
+                  "Bottom"
+               ]
+            },
+            {
+               "value":"Mismatch",
+               "route":"End",
+               "output":"Mismatch",
+               "picture":true,
+               "annotation":true,
+               "annotation_label":"Physical",
+               "annotations":[
+                  "Like New",
+                  "Minor Scratch",
+                  "Minor Dent",
+                  "Minor Damage",
+                  "Major Scratch",
+                  "Major Dent",
+                  "Major Damage"
+               ],
+               "picture_labels":[
+                  "Left",
+                  "Right",
+                  "Top",
+                  "Bottom"
+               ]
+            },
+            {
+               "value":"Fake",
+               "route":"End",
+               "output":"Fake",
+               "picture":true,
+               "annotation":true,
+               "annotation_label":"Physical",
+               "annotations":[
+                  "Like New",
+                  "Minor Scratch",
+                  "Minor Dent",
+                  "Minor Damage",
+                  "Major Scratch",
+                  "Major Dent",
+                  "Major Damage"
+               ],
+               "picture_labels":[
+                  "Left",
+                  "Right",
+                  "Top",
+                  "Bottom"
+               ]
+            },
+            {
+               "value":"Complete damage",
+               "route":"End",
+               "output":"Defective",
+               "picture":true,
+               "annotation":true,
+               "annotation_label":"Physical",
+               "annotations":[
+                  "Like New",
+                  "Minor Scratch",
+                  "Minor Dent",
+                  "Minor Damage",
+                  "Major Scratch",
+                  "Major Dent",
+                  "Major Damage"
+               ],
+               "picture_labels":[
+                  "Left",
+                  "Right",
+                  "Top",
+                  "Bottom"
+               ]
+            }
+         ]
+      },
+      "Ref_8":{
+         "test_type":"Item Condition",
+         "test":"",
+         "picture":true,
+         "annotation":true,
+         "annotations":[
+            "Like New",
+            "Minor Scratch",
+            "Minor Dent",
+            "Minor Damage",
+            "Major Scratch",
+            "Major Dent",
+            "Major Damage"
+         ],
+         "annotation_label":"Physical",
+         "picture_labels":[
+            "Left",
+            "Right",
+            "Top",
+            "Bottom"
+         ],
+         "options":[
+            {
+               "value":"Used",
+               "route":"Ref_13",
+               "output":"Used",
+               "picture":true,
+               "annotation":true,
+               "annotation_label":"Physical",
+               "annotations":[
+                  "Like New",
+                  "Minor Scratch",
+                  "Minor Dent",
+                  "Minor Damage",
+                  "Major Scratch",
+                  "Major Dent",
+                  "Major Damage"
+               ],
+               "picture_labels":[
+                  "Left",
+                  "Right",
+                  "Top",
+                  "Bottom"
+               ]
+            },
+            {
+               "value":"Missing",
+               "route":"End",
+               "output":"Missing",
+               "picture":true,
+               "annotation":true,
+               "annotation_label":"Physical",
+               "annotations":[
+                  "Like New",
+                  "Minor Scratch",
+                  "Minor Dent",
+                  "Minor Damage",
+                  "Major Scratch",
+                  "Major Dent",
+                  "Major Damage"
+               ],
+               "picture_labels":[
+                  "Left",
+                  "Right",
+                  "Top",
+                  "Bottom"
+               ]
+            },
+            {
+               "value":"Mismatch",
+               "route":"End",
+               "output":"Mismatch",
+               "picture":true,
+               "annotation":true,
+               "annotation_label":"Physical",
+               "annotations":[
+                  "Like New",
+                  "Minor Scratch",
+                  "Minor Dent",
+                  "Minor Damage",
+                  "Major Scratch",
+                  "Major Dent",
+                  "Major Damage"
+               ],
+               "picture_labels":[
+                  "Left",
+                  "Right",
+                  "Top",
+                  "Bottom"
+               ]
+            },
+            {
+               "value":"Fake",
+               "route":"End",
+               "output":"Fake",
+               "picture":true,
+               "annotation":true,
+               "annotation_label":"Physical",
+               "annotations":[
+                  "Like New",
+                  "Minor Scratch",
+                  "Minor Dent",
+                  "Minor Damage",
+                  "Major Scratch",
+                  "Major Dent",
+                  "Major Damage"
+               ],
+               "picture_labels":[
+                  "Left",
+                  "Right",
+                  "Top",
+                  "Bottom"
+               ]
+            },
+            {
+               "value":"Complete damage",
+               "route":"End",
+               "output":"Defective",
+               "picture":true,
+               "annotation":true,
+               "annotation_label":"Physical",
+               "annotations":[
+                  "Like New",
+                  "Minor Scratch",
+                  "Minor Dent",
+                  "Minor Damage",
+                  "Major Scratch",
+                  "Major Dent",
+                  "Major Damage"
+               ],
+               "picture_labels":[
+                  "Left",
+                  "Right",
+                  "Top",
+                  "Bottom"
+               ]
+            }
+         ]
+      },
+      "Ref_9":{
+         "test_type":"Item Condition",
+         "test":"",
+         "picture":true,
+         "annotation":true,
+         "annotations":[
+            "Like New",
+            "Minor Scratch",
+            "Minor Dent",
+            "Minor Damage",
+            "Major Scratch",
+            "Major Dent",
+            "Major Damage"
+         ],
+         "annotation_label":"Physical",
+         "picture_labels":[
+            "Left",
+            "Right",
+            "Top",
+            "Bottom"
+         ],
+         "options":[
+            {
+               "value":"Missing",
+               "route":"End",
+               "output":"Missing",
+               "picture":true,
+               "annotation":true,
+               "annotation_label":"Physical",
+               "annotations":[
+                  "Like New",
+                  "Minor Scratch",
+                  "Minor Dent",
+                  "Minor Damage",
+                  "Major Scratch",
+                  "Major Dent",
+                  "Major Damage"
+               ],
+               "picture_labels":[
+                  "Left",
+                  "Right",
+                  "Top",
+                  "Bottom"
+               ]
+            },
+            {
+               "value":"Mismatch",
+               "route":"End",
+               "output":"Mismatch",
+               "picture":true,
+               "annotation":true,
+               "annotation_label":"Physical",
+               "annotations":[
+                  "Like New",
+                  "Minor Scratch",
+                  "Minor Dent",
+                  "Minor Damage",
+                  "Major Scratch",
+                  "Major Dent",
+                  "Major Damage"
+               ],
+               "picture_labels":[
+                  "Left",
+                  "Right",
+                  "Top",
+                  "Bottom"
+               ]
+            },
+            {
+               "value":"Fake",
+               "route":"End",
+               "output":"Fake",
+               "picture":true,
+               "annotation":true,
+               "annotation_label":"Physical",
+               "annotations":[
+                  "Like New",
+                  "Minor Scratch",
+                  "Minor Dent",
+                  "Minor Damage",
+                  "Major Scratch",
+                  "Major Dent",
+                  "Major Damage"
+               ],
+               "picture_labels":[
+                  "Left",
+                  "Right",
+                  "Top",
+                  "Bottom"
+               ]
+            },
+            {
+               "value":"Complete damage",
+               "route":"End",
+               "output":"Defective",
+               "picture":true,
+               "annotation":true,
+               "annotation_label":"Physical",
+               "annotations":[
+                  "Like New",
+                  "Minor Scratch",
+                  "Minor Dent",
+                  "Minor Damage",
+                  "Major Scratch",
+                  "Major Dent",
+                  "Major Damage"
+               ],
+               "picture_labels":[
+                  "Left",
+                  "Right",
+                  "Top",
+                  "Bottom"
+               ]
+            }
+         ]
+      },
+      "Ref_10":{
+         "test_type":"Item Condition",
+         "test":"",
+         "picture":true,
+         "annotation":true,
+         "annotations":[
+            "Like New",
+            "Minor Scratch",
+            "Minor Dent",
+            "Minor Damage",
+            "Major Scratch",
+            "Major Dent",
+            "Major Damage"
+         ],
+         "annotation_label":"Physical",
+         "picture_labels":[
+            "Left",
+            "Right",
+            "Top",
+            "Bottom"
+         ],
+         "options":[
+            {
+               "value":"Mismatch",
+               "route":"End",
+               "output":"Mismatch",
+               "picture":true,
+               "annotation":true,
+               "annotation_label":"Physical",
+               "annotations":[
+                  "Like New",
+                  "Minor Scratch",
+                  "Minor Dent",
+                  "Minor Damage",
+                  "Major Scratch",
+                  "Major Dent",
+                  "Major Damage"
+               ],
+               "picture_labels":[
+                  "Left",
+                  "Right",
+                  "Top",
+                  "Bottom"
+               ]
+            },
+            {
+               "value":"Fake",
+               "route":"End",
+               "output":"Fake",
+               "picture":true,
+               "annotation":true,
+               "annotation_label":"Physical",
+               "annotations":[
+                  "Like New",
+                  "Minor Scratch",
+                  "Minor Dent",
+                  "Minor Damage",
+                  "Major Scratch",
+                  "Major Dent",
+                  "Major Damage"
+               ],
+               "picture_labels":[
+                  "Left",
+                  "Right",
+                  "Top",
+                  "Bottom"
+               ]
+            },
+            {
+               "value":"Complete damage",
+               "route":"End",
+               "output":"Defective",
+               "picture":true,
+               "annotation":true,
+               "annotation_label":"Physical",
+               "annotations":[
+                  "Like New",
+                  "Minor Scratch",
+                  "Minor Dent",
+                  "Minor Damage",
+                  "Major Scratch",
+                  "Major Dent",
+                  "Major Damage"
+               ],
+               "picture_labels":[
+                  "Left",
+                  "Right",
+                  "Top",
+                  "Bottom"
+               ]
+            }
+         ]
+      },
+      "Ref_11":{
+         "test_type":"Item Condition",
+         "test":"",
+         "picture":true,
+         "annotation":true,
+         "annotations":[
+            "Like New",
+            "Minor Scratch",
+            "Minor Dent",
+            "Minor Damage",
+            "Major Scratch",
+            "Major Dent",
+            "Major Damage"
+         ],
+         "annotation_label":"Physical",
+         "picture_labels":[
+            "Left",
+            "Right",
+            "Top",
+            "Bottom"
+         ],
+         "options":[
+            {
+               "value":"Fake",
+               "route":"End",
+               "output":"Fake",
+               "picture":true,
+               "annotation":true,
+               "annotation_label":"Physical",
+               "annotations":[
+                  "Like New",
+                  "Minor Scratch",
+                  "Minor Dent",
+                  "Minor Damage",
+                  "Major Scratch",
+                  "Major Dent",
+                  "Major Damage"
+               ],
+               "picture_labels":[
+                  "Left",
+                  "Right",
+                  "Top",
+                  "Bottom"
+               ]
+            },
+            {
+               "value":"Complete damage",
+               "route":"End",
+               "output":"Defective",
+               "picture":true,
+               "annotation":true,
+               "annotation_label":"Physical",
+               "annotations":[
+                  "Like New",
+                  "Minor Scratch",
+                  "Minor Dent",
+                  "Minor Damage",
+                  "Major Scratch",
+                  "Major Dent",
+                  "Major Damage"
+               ],
+               "picture_labels":[
+                  "Left",
+                  "Right",
+                  "Top",
+                  "Bottom"
+               ]
+            }
+         ]
+      },
+      "Ref_12":{
+         "test_type":"Item Condition",
+         "test":"",
+         "picture":true,
+         "annotation":true,
+         "annotations":[
+            "Like New",
+            "Minor Scratch",
+            "Minor Dent",
+            "Minor Damage",
+            "Major Scratch",
+            "Major Dent",
+            "Major Damage"
+         ],
+         "annotation_label":"Physical",
+         "picture_labels":[
+            "Left",
+            "Right",
+            "Top",
+            "Bottom"
+         ],
+         "options":[
+            {
+               "value":"Complete damage",
+               "route":"End",
+               "output":"Defective",
+               "picture":true,
+               "annotation":true,
+               "annotation_label":"Physical",
+               "annotations":[
+                  "Like New",
+                  "Minor Scratch",
+                  "Minor Dent",
+                  "Minor Damage",
+                  "Major Scratch",
+                  "Major Dent",
+                  "Major Damage"
+               ],
+               "picture_labels":[
+                  "Left",
+                  "Right",
+                  "Top",
+                  "Bottom"
+               ]
+            }
+         ]
+      },
+      "Ref_13":{
+         "test_type":"Functional",
+         "test":"Powering On",
+         "picture":false,
+         "annotation":false,
+         "annotations":[
+
+         ],
+         "annotation_label":"",
+         "picture_labels":[
+
+         ],
+         "options":[
+            {
+               "value":"Yes",
+               "route":"Ref_17",
+               "output":"Functional",
+               "picture":false,
+               "annotation":false,
+               "annotation_label":"",
+               "annotations":[
+
+               ],
+               "picture_labels":[
+
+               ]
+            },
+            {
+               "value":"No",
+               "route":"Ref_15",
+               "output":"",
+               "picture":false,
+               "annotation":false,
+               "annotation_label":"",
+               "annotations":[
+
+               ],
+               "picture_labels":[
+
+               ]
+            }
+         ]
+      },
+      "Ref_15":{
+         "test_type":"Functional",
+         "test":"Power Cable Present and Intact",
+         "picture":false,
+         "annotation":false,
+         "annotations":[
+
+         ],
+         "annotation_label":"",
+         "picture_labels":[
+
+         ],
+         "options":[
+            {
+               "value":"Yes",
+               "route":"Ref_17",
+               "output":"Functional",
+               "picture":false,
+               "annotation":false,
+               "annotation_label":"",
+               "annotations":[
+
+               ],
+               "picture_labels":[
+
+               ]
+            },
+            {
+               "value":"No",
+               "route":"Ref_17",
+               "output":"Functional with Minor Defect",
+               "picture":false,
+               "annotation":false,
+               "annotation_label":"",
+               "annotations":[
+
+               ],
+               "picture_labels":[
+
+               ]
+            }
+         ]
+      },
+      "Ref_17":{
+         "test_type":"Functional",
+         "test":"Keys are functioning",
+         "picture":false,
+         "annotation":false,
+         "annotations":[
+
+         ],
+         "annotation_label":"",
+         "picture_labels":[
+
+         ],
+         "options":[
+            {
+               "value":"Yes",
+               "route":"Ref_19",
+               "output":"Functional",
+               "picture":false,
+               "annotation":false,
+               "annotation_label":"",
+               "annotations":[
+
+               ],
+               "picture_labels":[
+
+               ]
+            },
+            {
+               "value":"No",
+               "route":"Ref_19",
+               "output":"Functional with Minor Defect",
+               "picture":false,
+               "annotation":false,
+               "annotation_label":"",
+               "annotations":[
+
+               ],
+               "picture_labels":[
+
+               ]
+            }
+         ]
+      },
+      "Ref_19":{
+         "test_type":"Functional",
+         "test":"Excessive Noice or Vibration",
+         "picture":false,
+         "annotation":false,
+         "annotations":[
+
+         ],
+         "annotation_label":"",
+         "picture_labels":[
+
+         ],
+         "options":[
+            {
+               "value":"Yes",
+               "route":"Ref_21",
+               "output":"Defective",
+               "picture":false,
+               "annotation":false,
+               "annotation_label":"",
+               "annotations":[
+
+               ],
+               "picture_labels":[
+
+               ]
+            },
+            {
+               "value":"No",
+               "route":"Ref_21",
+               "output":"Functional",
+               "picture":false,
+               "annotation":false,
+               "annotation_label":"",
+               "annotations":[
+
+               ],
+               "picture_labels":[
+
+               ]
+            }
+         ]
+      },
+      "Ref_21":{
+         "test_type":"Accessories",
+         "test":"",
+         "picture":false,
+         "annotation":false,
+         "annotations":[
+
+         ],
+         "annotation_label":"",
+         "picture_labels":[
+
+         ],
+         "options":[
+            {
+               "value":"All Available",
+               "route":"End",
+               "output":"All Available",
+               "picture":false,
+               "annotation":false,
+               "annotation_label":"",
+               "annotations":[
+
+               ],
+               "picture_labels":[
+
+               ]
+            },
+            {
+               "value":"Some Available",
+               "route":"End",
+               "output":"Some Available",
+               "picture":false,
+               "annotation":false,
+               "annotation_label":"",
+               "annotations":[
+
+               ],
+               "picture_labels":[
+
+               ]
+            },
+            {
+               "value":"None Available",
+               "route":"End",
+               "output":"None Available",
+               "picture":false,
+               "annotation":false,
+               "annotation_label":"",
+               "annotations":[
+
+               ],
+               "picture_labels":[
+
+               ]
+            },
+            {
+               "value":"Fake",
+               "route":"End",
+               "output":"Fake",
+               "picture":false,
+               "annotation":false,
+               "annotation_label":"",
+               "annotations":[
+
+               ],
+               "picture_labels":[
+
+               ]
+            }
+         ]
+      },
+      "Ref_22":{
+         "test_type":"Accessories",
+         "test":"",
+         "picture":false,
+         "annotation":false,
+         "annotations":[
+
+         ],
+         "annotation_label":"",
+         "picture_labels":[
+
+         ],
+         "options":[
+            {
+               "value":"Some Available",
+               "route":"End",
+               "output":"Some Available",
+               "picture":false,
+               "annotation":false,
+               "annotation_label":"",
+               "annotations":[
+
+               ],
+               "picture_labels":[
+
+               ]
+            },
+            {
+               "value":"None Available",
+               "route":"End",
+               "output":"None Available",
+               "picture":false,
+               "annotation":false,
+               "annotation_label":"",
+               "annotations":[
+
+               ],
+               "picture_labels":[
+
+               ]
+            },
+            {
+               "value":"Fake",
+               "route":"End",
+               "output":"Fake",
+               "picture":false,
+               "annotation":false,
+               "annotation_label":"",
+               "annotations":[
+
+               ],
+               "picture_labels":[
+
+               ]
+            }
+         ]
+      },
+      "Ref_23":{
+         "test_type":"Accessories",
+         "test":"",
+         "picture":false,
+         "annotation":false,
+         "annotations":[
+
+         ],
+         "annotation_label":"",
+         "picture_labels":[
+
+         ],
+         "options":[
+            {
+               "value":"None Available",
+               "route":"End",
+               "output":"None Available",
+               "picture":false,
+               "annotation":false,
+               "annotation_label":"",
+               "annotations":[
+
+               ],
+               "picture_labels":[
+
+               ]
+            },
+            {
+               "value":"Fake",
+               "route":"End",
+               "output":"Fake",
+               "picture":false,
+               "annotation":false,
+               "annotation_label":"",
+               "annotations":[
+
+               ],
+               "picture_labels":[
+
+               ]
+            }
+         ]
+      },
+      "Ref_24":{
+         "test_type":"Accessories",
+         "test":"",
+         "picture":false,
+         "annotation":false,
+         "annotations":[
+
+         ],
+         "annotation_label":"",
+         "picture_labels":[
+
+         ],
+         "options":[
+            {
+               "value":"Fake",
+               "route":"End",
+               "output":"Fake",
+               "picture":false,
+               "annotation":false,
+               "annotation_label":"",
+               "annotations":[
+
+               ],
+               "picture_labels":[
+
+               ]
+            }
+         ]
+      },
+      "End":{
+         "test_type":"End"
+      }
+   },
+   "functional_precedence":{
+      "Functional":0,
+      "Functional with Minor Defect":1,
+      "Defective":2
+   },
+   "Physical_precedence":{
+      "Like New":0,
+      "Minor Scratch":1,
+      "Minor Dent":2,
+      "Minor Damage":3,
+      "Major Scratch":4,
+      "Major Dent":5,
+      "Major Damage":6
+   }
+}

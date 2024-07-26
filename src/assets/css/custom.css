@@ -1,0 +1,56 @@
+.page-item {
+  display: inline-block;
+}
+.page-item a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+.page-item.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.left-align{
+  text-align: left;
+}
+
+.right-align{
+  text-align: right;
+}
+
+.padding-8 {
+  padding: 8px;
+}
+
+.table td, .table th {
+  padding: .75rem;
+  vertical-align: top;
+  border-top: none!important;
+}
+
+.width_4{
+  width:4%;
+}
+.width_17{
+  width:17%;
+}
+
+.width_18{
+  width:18%;
+}
+.width_10{
+  width:10%;
+}
+.width_5{
+  width:5%;
+}
+
+.padding-left-28 {
+  padding-left: 28px;
+}
+
+.padding-left-bottom-10 {
+  padding: 0 0 10px 10px;
+}

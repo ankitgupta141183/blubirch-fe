@@ -1,0 +1,263 @@
+[{"name" : "Refrigerator", "category_id":44,
+
+"functional_value":[
+					{"name":"Powering On","value":["Yes","No"],"checked":"Yes","message" : "Not Powering On"},
+					{"name":"Power Cable Damaged or Missing","value":["Yes","No"],"checked":"No","message" : "Power Cable Damaged or Missing"},
+					{"name":"Display Working","value":["Yes","No","NA"],"checked":"Yes","message" : "Display Not Working"},
+					{"name":"Door Light Working","value":["Yes","No"],"checked":"Yes","message" : "Door Light not Working"},
+					{"name":"Control Buttons Working","value":["Yes","No"],"checked":"Yes","message" : "Control Buttons not Working"},
+					{"name":"Cooling Happening","value":["Yes","No"],"checked":"Yes","message" : "Cooling not Happening"},
+					{"name":"Compressor Working","value":["Yes","No"],"checked":"Yes","message" : "Compressor not Working"},
+					{"name":"Gas Leakage","value":["Yes","No"],"checked":"No","message" : "Gas Leaking"},
+					{"name":"Excessive Noice or Vibration","value":["Yes","No"],"checked":"No","message" : "Excessive Noice or Vibration"}],
+
+"function_test" :[{"Powering On" : [{"checked" : "Yes", "select" : "Display Working" ,"hide" : ["Powering On","Power Cable Damaged or Missing","Door Light Working","Control Buttons Working","Cooling Happening","Compressor Working","Gas Leakage","Excessive Noice or Vibration"]},
+																		{"checked" : "No" , "select" : "Power Cable Damaged or Missing","hide" : ["Powering On","Display Working","Door Light Working","Control Buttons Working","Cooling Happening","Compressor Working","Gas Leakage","Excessive Noice or Vibration"]}]},
+									{"Display Working": [{"checked" : "Yes" , "select":"Door Light Working" ,"hide" :["Display Working"]},
+																			{"checked" : "No" , "select":"Door Light Working" ,"hide" : ["Display Working"]},
+																			{"checked" : "NA" , "select":"Door Light Working","hide" : ["Display Working"]}]},
+									{"Door Light Working": [{"checked" : "Yes" , "select" : "Control Buttons Working" ,"hide" : ["Door Light Working"]},
+																					{"checked" : "No" , "select" : "Control Buttons Working","hide" : ["Door Light Working"]}]},
+									{"Control Buttons Working" : [{"checked" : "Yes" , "select" : "Cooling Happening" ,"hide" : ["Control Buttons Working"]},
+																								{"checked" : "No" , "select" : "Cooling Happening" ,"hide" :["Control Buttons Working"]}]},
+									{"Cooling Happening" : [{"checked" : "Yes" , "select" : "Compressor Working","hide" : ["Cooling Happening"]},
+																			{"checked" : "No" , "select" : "Compressor Working" ,"hide" : ["Cooling Happening"]}]},
+									{"Compressor Working" : [{"checked" : "Yes" , "select" : "Gas Leakage" ,"hide" : ["Compressor Working"]},
+																			{"checked" : "No" , "select" : "Gas Leakage","hide" : ["Compressor Working"]}]},
+									{"Gas Leakage" : [{"checked" : "Yes" , "select" : "Excessive Noice or Vibration" ,"hide" : ["Gas Leakage"]},
+																		{"checked" : "No" , "select" : "Excessive Noice or Vibration" ,"hide" : ["Gas Leakage"]}]}],
+
+		"accessories":[{"name":"All","default":false},
+									{"name":"Some","default":false},
+									{"name":"None","default":false}],
+
+
+ 
+  "item_condition": [{
+			"name": "Unused Returned", "default": false },
+		{ "name": "Used","default": false},
+		{"name": "Missing","default": false},
+		{"name": "Fake","default": false},
+		{"name": "Mismatch","default": false},
+		{"name": "Complete damage","default": false}],
+
+
+
+	"packaging_status":[
+										{"name":"Open Box","default":false},
+										{"name":"Seal Pack","default":false},
+										{"name":"Not Available","default":false},
+										{"name":"Brown Box Available","default":false}],
+
+"functional_test_case":[{ 
+	"Functional" :[{"name":"Powering On" ,"default": "Yes"},
+				{"name":"Display Working" ,"default": "Yes"},
+				{"name":"Door Light Working", "default": "Yes"},
+				{"name":"Control Buttons Working" ,"default": "Yes"},
+				{"name":"Cooling Happening","default": "Yes"},
+				{"name":"Compressor Working","default": "Yes"},
+				{"name":"Gas Leakage","default": "No"},
+				{"name":"Excessive Noice or Vibration","default": "No"}],
+
+"Defective":[{"name":"Powering On" ,"default": "No"},
+			{"name":"Compressor Working","default": "No"},
+			{"name":"Excessive Noice or Vibration","default": "Yes"}],
+
+"Functional with Minor Defect":[{"name":"Power Cable Damaged or Missing" ,"default": "Yes"},
+				{"name":"Display Working" ,"default": "No"},
+				{"name":"Door Light Working", "default": "No"},
+				{"name":"Control Buttons Working" ,"default": "No"},
+				{"name":"Cooling Happening","default": "No"},
+				{"name":"Gas Leakage","default": "Yes"}]
+
+
+}]
+},
+{
+	"name" : "Washing Machine", "category_id":32,
+"functional_value":[{"name":"Powering On","value":["Yes","No"],"checked":"Yes","message" : "Not Powering On"},
+            				{"name":"Power Cable Present and Intact","value":["Yes","No"],"checked":"No","message" : "Power Cable Present and Intact"},
+										{"name":"Display working","value":["Yes","No"],"checked":"Yes","message":"Display not working"},
+										{"name":"Control Buttons Working","value":["Yes","No"],"checked":"Yes","message":"Control Buttons not Working"},
+										{"name":"Washing machine functioning","value":["Yes","No"],"checked":"Yes","message" :"Washing machine not functioning"},
+										{"name":"Excessive Noice or Vibration","value":["Yes","No"],"checked":"No","message":"Excessive Noice or Vibration"}],
+
+"function_test" :[{"Powering On" : [{"checked" : "Yes", "select" : "Display working" ,"hide" : ["Powering On","Power Cable Present and Intact","Control Buttons Working","Washing machine functioning","Excessive Noice or Vibration"]},
+																		{"checked" : "No" , "select" : "Power Cable Present and Intact","hide" : ["Powering On","Display working","Control Buttons Working","Washing machine functioning","Excessive Noice or Vibration"]}]},
+{"Display working" : [{"checked" : "Yes", "select" : "Control Buttons Working" ,"hide" : ["Display working"]},
+																		{"checked" : "No" , "select" : "Control Buttons Working","hide" : ["Display working"]}]},
+{"Control Buttons Working" : [{"checked" : "Yes", "select" : "Washing machine functioning" ,"hide" : ["Control Buttons Working"]},
+																		{"checked" : "No" , "select" : "Washing machine functioning","hide" : ["Control Buttons Working"]}]},
+{"Washing machine functioning" : [{"checked" : "Yes", "select" : "Excessive Noice or Vibration" ,"hide" : ["Washing machine functioning"]},
+																		{"checked" : "No" , "select" : "Excessive Noice or Vibration","hide" : ["Washing machine functioning"]}]}],
+
+
+"item_condition": [{
+			"name": "Unused Returned", "default": false },
+		{ "name": "Used","default": false},
+		{"name": "Missing","default": false},
+		{"name": "Fake","default": false},
+		{"name": "Mismatch","default": false},
+		{"name": "Complete damage","default": false}],
+
+
+
+"accessories":[{"name":"All","default":false},
+								{"name":"Some","default":false},
+									{"name":"None","default":false},
+									{"name":"Fake","default":false}],
+
+"packaging_status":[{"name":"Open Box","default":false},
+										{"name":"Seal Pack","default":false},
+										{"name":"Not Available","default":false},
+										{"name":"Brown Box Available","default":false}],
+
+"functional_test_case":[{ 
+	"Functional" :[{"name":"Powering On" ,"default": "Yes"},
+				{"name":"Display working","default": "Yes"},
+				{"name":"Control Buttons Working","default": "Yes"},
+				{"name":"Washing machine functioning","default": "Yes"},
+				{"name":"Excessive Noice or Vibration","default": "No"}],
+		
+	"Defective":[
+				{"name":"Powering On","default": "No"},
+				{"name":"Power Cable Present and Intact","default": "Yes"},
+				{"name":"Washing machine functioning","default": "No"},
+				{"name":"Excessive Noice or Vibration","default": "Yes"}],
+				
+"Functional with Minor Defect":[{"name":"Display working","default": "No"},
+				{"name":"Control Buttons Working","default": "No"}]
+}]
+
+},
+
+{
+"name" : "Television", "category_id":26,
+	
+"functional_value":[{"name":"Powering On","value":["Yes","No"],"checked":"Yes","message" : "Not Powering On"},
+            				{"name":"Power Cable Present and Intact","value":["Yes","No"],"checked":"No","message" : "Power Cable Present and Intact"},
+										{"name":"Keys are working","value":["Yes","No"],"checked":"Yes","message":"keys not working"},
+										{"name":"Line on display/ Patches on display functioning","value":["Yes","No"],"checked":"No","message":"Line on display/ Patches on display"},
+										{"name":"Blank display","value":["Yes","No"],"checked":"No","message":"Blank display"},
+										{"name":"Audio is functioning","value":["Yes","No"],"checked":"Yes","message" :"Audio is not functioning"},
+										{"name":"Bluetooth functioning","value":["Yes","No"],"checked":"Yes","message" :"Bluetooth not functioning"},
+										{"name":"USB functioning","value":["Yes","No"],"checked":"Yes","message" :"USB not functioning"},
+										{"name":"Wifi is functioning","value":["Yes","No"],"checked":"Yes","message" :"Wifi is not functioning"},
+										{"name":"Excessive Noice or Vibration","value":["Yes","No"],"checked":"No","message":"Excessive Noice or Vibration"}],
+
+"function_test" :[{"Powering On" : [{"checked" : "Yes", "select" : "Keys are working","hide" : ["Powering On","Power Cable Present and Intact","Line on display/ Patches on display functioning","Blank display","Audio is functioning","Bluetooth functioning","USB functioning","Wifi is functioning","Excessive Noice or Vibration"]},
+																		{"checked" : "No" , "select" : "Power Cable Present and Intact","hide" : ["Powering On","Keys are working","Line on display/ Patches on display functioning","Blank display","Audio is functioning","Bluetooth functioning","USB functioning","Wifi is functioning","Excessive Noice or Vibration"]}]},
+{"Keys are working" : [{"checked" : "Yes", "select" : "Line on display/ Patches on display functioning" ,"hide" : ["Keys are working"]},
+																		{"checked" : "No" , "select" : "Line on display/ Patches on display functioning","hide" : ["Keys are working"]}]},
+{"Line on display/ Patches on display functioning" : [{"checked" : "Yes", "select" : "Blank display" ,"hide" : ["Line on display/ Patches on display functioning"]},
+																		{"checked" : "No" , "select" : "Blank display","hide" : ["Line on display/ Patches on display functioning"]}]},
+{"Blank display" : [{"checked" : "Yes", "select" : "Audio is functioning" ,"hide" : ["Blank display"]},
+																		{"checked" : "No" , "select" : "Audio is functioning","hide" : ["Blank display"]}]},
+{"Audio is functioning" : [{"checked" : "Yes", "select" : "Bluetooth functioning" ,"hide" : ["Audio is functioning"]},
+																		{"checked" : "No" , "select" : "Bluetooth functioning","hide" : ["Audio is functioning"]}]},
+{"Bluetooth functioning" : [{"checked" : "Yes", "select" : "USB functioning" ,"hide" : ["Bluetooth functioning"]},
+																		{"checked" : "No" , "select" : "USB functioning","hide" : ["Bluetooth functioning"]}]},
+{"USB functioning" : [{"checked" : "Yes", "select" : "Wifi is functioning" ,"hide" : ["USB functioning"]},
+																		{"checked" : "No" , "select" : "Wifi is functioning","hide" : ["USB functioning"]}]},
+{"Wifi is functioning" : [{"checked" : "Yes", "select" : "Excessive Noice or Vibration" ,"hide" : ["Wifi is functioning"]},
+																		{"checked" : "No" , "select" : "Excessive Noice or Vibration","hide" : ["Wifi is functioning"]}]}],
+
+
+"item_condition": [{
+			"name": "Unused Returned", "default": false },
+		{ "name": "Used","default": false},
+		{"name": "Missing","default": false},
+		{"name": "Fake","default": false},
+		{"name": "Mismatch","default": false},
+		{"name": "Complete damage","default": false}],
+
+
+"accessories":[{"name":"All","default":false},
+									{"name":"Some","default":false},
+									{"name":"None","default":false}],
+
+"packaging_status":[
+										{"name":"Open Box","default":false},
+										{"name":"Seal Pack","default":false},
+										{"name":"Not Available","default":false},
+										{"name":"Brown Box Available","default":false}],
+
+"functional_test_case":[{ 
+	"Functional" :
+				[{"name":"Powering On" ,"default": "Yes"},
+				{"name":"Keys are working","default": "Yes"},
+				{"name":"Line on display/ Patches on display functioning","default": "No"},
+				{"name":"Blank display","default": "No"},
+				{"name":"Audio is functioning","default": "Yes"},
+				{"name":"Bluetooth functioning","default": "Yes"},
+				{"name":"USB functioning","default": "Yes"},
+				{"name":"Wifi is functioning","default": "Yes"},
+				{"name":"Excessive Noice or Vibration","default": "No"}],
+		
+	"Defective":[
+				{"name":"Powering On","default": "No"},
+				{"name":"Power Cable Present and Intact","default": "Yes"},
+				{"name":"Line on display/ Patches on display functioning","default": "Yes"},
+				{"name":"Excessive Noice or Vibration","default": "Yes"}],
+				
+"Functional with Minor Defect":
+        [{"name":"Keys are working","default": "No"},
+				{"name":"Blank display","default": "Yes"},
+				{"name":"Audio is functioning","default": "No"},
+				{"name":"Bluetooth functioning","default": "No"},
+				{"name":"USB functioning","default": "No"},
+				{"name":"Wifi is functioning","default": "No"}]
+			
+}]
+	
+},
+{"name" : "Pressure Cooker", "category_id":44,
+
+"functional_value":[
+					{"name":"Is handle tight?","value":["Yes","No"],"checked":"Yes","message" : ""},
+					{"name":"Is whistle present?","value":["Yes","No"],"checked":"Yes","message" : ""},
+					{"name":"Is the lid closing properly?","value":["Yes","No"],"checked":"Yes","message" : ""}],
+
+"function_test" :[{"Is handle tight?" : [{"checked" : "Yes", "select" : "Is whistle present?" ,"hide" : ["Is handle tight?","Is the lid closing properly?"]},
+																		{"checked" : "No" , "select" : "Is whistle present?","hide" : ["Is handle tight?","Is the lid closing properly?"]}]},
+									{"Is whistle present?" : [{"checked" : "Yes" , "select" : "Is the lid closing properly?" ,"hide" : ["Is whistle present?"]},
+																		{"checked" : "No" , "select" : "Is the lid closing properly?" ,"hide" : ["Is whistle present?"]}]}],
+
+		"accessories":[{"name":"All","default":false},
+									{"name":"Some","default":false},
+									{"name":"None","default":false}],
+
+
+ 
+  "item_condition": [{
+			"name": "Unused Returned", "default": false },
+		{ "name": "Used","default": false},
+		{"name": "Missing","default": false},
+		{"name": "Fake","default": false},
+		{"name": "Mismatch","default": false},
+		{"name": "Complete damage","default": false}],
+
+
+	"packaging_status":[
+										{"name":"Open Box","default":false},
+										{"name":"Seal Pack","default":false},
+										{"name":"Not Available","default":false},
+										{"name":"Brown Box Available","default":false}],
+
+"functional_test_case":[{ 
+	"Functional" :[{"name":"Is handle tight?" ,"default": "Yes"},
+				{"name":"Is whistle present?","default": "Yes"},
+				{"name":"Is the lid closing properly?","default": "Yes"}],
+
+
+"Functional with Minor Defect":[
+				{"name":"Is handle tight?" ,"default": "No"},
+				{"name":"Is whistle present?","default": "No"},
+				{"name":"Is the lid closing properly?","default": "No"}]
+
+
+}]
+}
+
+
+]

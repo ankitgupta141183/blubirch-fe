@@ -1,0 +1,298 @@
+{
+   "grade_rules":[
+      {
+         "grade":"New",
+         "test_groups":[
+            {
+               "test":"Packaging",
+               "answers":[
+                  "Seal Pack"
+               ]
+            }
+         ]
+      },
+      {
+         "grade":"Open Box",
+         "test_groups":[
+            {
+               "test":"Item Condition",
+               "answers":[
+                  "Unused Returned"
+               ]
+            },
+            {
+               "test":"Functional",
+               "answers":[
+                  "Functional"
+               ]
+            },
+            {
+               "test":"Physical",
+               "answers":[
+                  "Like New"
+               ]
+            },
+            {
+               "test":"Packaging",
+               "answers":[
+                  "Open Box",
+                  "Minor Damage"
+               ]
+            },
+            {
+               "test":"Accessories",
+               "answers":[
+                  "All Available"
+               ]
+            }
+         ]
+      },
+      {
+         "grade":"Very Good",
+         "test_groups":[
+            {
+               "test":"Item Condition",
+               "answers":[
+                  "Unused Returned"
+               ]
+            },
+            {
+               "test":"Functional",
+               "answers":[
+                  "Functional",
+                  "Functional with Minor Defect"
+               ]
+            },
+            {
+               "test":"Physical",
+               "answers":[
+                  "Like New",
+                  "Minor Dent",
+                  "Minor Scratches",
+                  "Minor Damage",
+                  "",
+                  "Minor Damage",
+                  "Minor Missing Items"
+               ]
+            },
+            {
+               "test":"Packaging",
+               "answers":[
+                  "Open Box",
+                  "Minor Damage",
+                  "Major Damage",
+                  "Not Available",
+                  "Brown Box Available"
+               ]
+            },
+            {
+               "test":"Accessories",
+               "answers":[
+                  "All Available",
+                  "Some Available",
+                  "None Available",
+                  "Fake"
+               ]
+            }
+         ]
+      },
+      {
+         "grade":"Good",
+         "test_groups":[
+            {
+               "test":"Item Condition",
+               "answers":[
+                  "Unused Returned",
+                  "Used"
+               ]
+            },
+            {
+               "test":"Functional",
+               "answers":[
+                  "Functional",
+                  "Functional with Minor Defect"
+               ]
+            },
+            {
+               "test":"Physical",
+               "answers":[
+                  "Like New",
+                  "Minor Dent",
+                  "Minor Scratches",
+                  "Major Dent",
+                  "Major Damage",
+                  "Major Scratches",
+                  "Minor Damage",
+                  "Minor Missing Items",
+                  "Major Missing Items",
+                  "",
+                  "Visible Usage Marks Inside"
+               ]
+            },
+            {
+               "test":"Packaging",
+               "answers":[
+                  "Open Box",
+                  "Minor Damage",
+                  "Major Damage",
+                  "Not Available",
+                  "Brown Box Available"
+               ]
+            },
+            {
+               "test":"Accessories",
+               "answers":[
+                  "All Available",
+                  "Some Available",
+                  "None Available",
+                  "Fake"
+               ]
+            }
+         ]
+      },
+      {
+         "grade":"Defective",
+         "test_groups":[
+            {
+               "test":"Item Condition",
+               "answers":[
+                  "Unused Returned",
+                  "Used"
+               ]
+            },
+            {
+               "test":"Functional",
+               "answers":[
+                  "Defective"
+               ]
+            },
+            {
+               "test":"Physical",
+               "answers":[
+                  "Like New",
+                  "Minor Dent",
+                  "Minor Scratches",
+                  "Major Dent",
+                  "Major Scratches",
+                  "Minor Damage",
+                  "Major Damage",
+                  "Visible Usage Marks Inside",
+                  "Major Items Missing"
+               ]
+            },
+            {
+               "test":"Packaging",
+               "answers":[
+                  "Open Box",
+                  "Minor Damage",
+                  "Major Damage",
+                  "Not Available",
+                  "Brown Box Available"
+               ]
+            },
+            {
+               "test":"Accessories",
+               "answers":[
+                  "All Available",
+                  "Some Available",
+                  "None Available",
+                  "Fake"
+               ]
+            }
+         ]
+      },
+      {
+         "grade":"As-Is",
+         "test_groups":[
+            {
+               "test":"Item Condition",
+               "answers":[
+                  "Unused Returned",
+                  "Used"
+               ]
+            },
+            {
+               "test":"Functional",
+               "answers":[
+                  "NA",
+                  "Power On"
+               ]
+            },
+            {
+               "test":"Physical",
+               "answers":[
+                  "Like New",
+                  "Minor Dent",
+                  "Minor Scratches",
+                  "Major Dent",
+                  "Major Scratches",
+                  "Minor Damage",
+                  "Major Damage",
+                  "Visible Usage Marks Inside",
+                  "Major Items Missing"
+               ]
+            },
+            {
+               "test":"Packaging",
+               "answers":[
+                  "Open Box",
+                  "Minor Damage",
+                  "Major Damage",
+                  "Not Available",
+                  "Brown Box Available"
+               ]
+            },
+            {
+               "test":"Accessories",
+               "answers":[
+                  "All Available",
+                  "Some Available",
+                  "None Available",
+                  "Fake"
+               ]
+            }
+         ]
+      },
+      {
+         "grade":"Not Tested",
+         "test_groups":[
+            {
+               "test":"Functional",
+               "answers":[
+                  "NA"
+               ]
+            },
+            {
+               "test":"Physical",
+               "answers":[
+                  "NA"
+               ]
+            },
+            {
+               "test":"Packaging",
+               "answers":[
+                  "NA"
+               ]
+            },
+            {
+               "test":"Accessories",
+               "answers":[
+                  "NA"
+               ]
+            }
+         ]
+      },
+      {
+         "grade":"End"
+      }
+   ],
+   "grade_precedence":{
+      "New":"0",
+      "Open Box":1,
+      "Very Good":2,
+      "Good":3,
+      "Defective":4,
+      "As-Is":5,
+      "Not Tested":6
+   }
+}

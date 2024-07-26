@@ -1,0 +1,94 @@
+{
+   "precedence":{
+      "Restock":"0",
+      "RTV":"1",
+      "E-Waste":"2",
+      "Liquidation":"3"
+   },
+   "rule_definitions":[
+      {
+         "name":"Restock",
+         "definition":"Physical && Packaging"
+      },
+      {
+         "name":"RTV",
+         "definition":"Physical && Functional && Packaging"
+      },
+      {
+         "name":"E-Waste",
+         "definition":"Physical && Packaging"
+      },
+      {
+         "name":"Liquidation",
+         "definition":"mrp_level"
+      }
+   ],
+   "rule_conditions":[
+      {
+         "name":"Restock",
+         "condition":{
+            "Physical":[
+               "Like New"
+            ],
+            "Functional":[
+
+            ],
+            "Packaging":[
+               "Seal Pack"
+            ],
+            "mrp_level":[]
+         }
+      },
+      {
+         "name":"RTV",
+         "condition":{
+            "Physical":[
+               "Minor Dent",
+               "Minor Scratches",
+               "Minor Dent on Side",
+               "Minor Dent on Top",
+               "Minor Dent on Back",
+               "Minor Scratch on Back"
+            ],
+            "Functional":[
+               "Functional with Minor Defect"
+            ],
+            "Packaging":[
+               "Open Box",
+               "Minor Damage "
+            ],
+            "mrp_level":[]
+         }
+      },
+      {
+         "name":"E-Waste",
+         "condition":{
+            "Physical":[
+               "Major Damage"
+            ],
+            "Functional":[
+
+            ],
+            "Packaging":[
+               "Major Damage"
+            ],
+            "mrp_level":[]
+         }
+      },
+      {
+         "name":"Liquidation",
+         "condition":{
+            "Physical":[
+
+            ],
+            "Functional":[
+
+            ],
+            "Packaging":[
+
+            ],
+            "mrp_level":[]
+         }
+      }
+   ]
+}

@@ -1,0 +1,198 @@
+
+{
+
+    "vendors":
+    [
+        {"id":1,"name":"blubirch"}, 
+        {"id":2,"name":"AWS"}
+    ],
+    "service_requests":
+    [
+        {"id":1,"name":"blubirch"}, 
+        {"id":2,"name":"AWS"}
+    ],
+    "transporters":
+    [
+        {"id":1,"name":"blubirch"}, 
+        {"id":2,"name":"AWS"}
+    ],
+    "box_count":
+    [
+        {"id":1,"name":"blubirch"}, 
+        {"id":2,"name":"AWS"}
+    ],
+    
+    "manage_boxes":[
+       {
+        "id":1,
+        "gate_pass_number":"a123",
+
+        "vendors":
+        [
+            {"id":1,"name":"blubirch"}, 
+            {"id":2,"name":"AWS"}
+        ],
+
+        "box_details":
+            [
+                    {"id":1,"bb_box_id":"BX_6500","box_condition":["Yes","No"],"removal_order_id": 123456768,"awb_number": 334345,"pslip_number": 676767,"auth_id": 889898,"spot_id":34434},
+                    {"id":2,"bb_box_id":"BX_6534","box_condition":["Yes","No"],"removal_order_id": 123456768,"awb_number": 46677878,"pslip_number": 36897,"auth_id": 975365,"spot_id":1234}
+            ]
+    
+       }
+    ],
+
+
+"reinward_boxes": [
+    {
+        "id": 1,
+        "gate_pass_number": "CON_2020",
+        "receipt_date": "10-04-2020",
+        "vendor": "Roys Tech",
+        "received_box":"20",
+        "acutal_box":"20",
+        "difference":0,
+        "warehouse":"bangalore"
+    },
+    {
+        "id": 2,
+        "gate_pass_number": "CON_2020",
+        "receipt_date": "10-04-2020",
+        "vendor": "Roys Tech",
+        "received_box":"20",
+        "acutal_box":"20",
+        "difference":0,
+        "warehouse":"bangalore"
+    },
+    {
+        "id": 3,
+        "gate_pass_number": "CON_2020",
+        "receipt_date": "10-04-2020",
+        "vendor": "Roys Tech",
+        "received_box":"20",
+        "acutal_box":"20",
+        "difference":0,
+        "warehouse":"bangalore"
+    },
+    {
+        "id": 4,
+        "gate_pass_number": "CON_2020",
+        "receipt_date": "10-04-2020",
+        "vendor": "Roys Tech",
+        "received_box":"20",
+        "acutal_box":"20",
+        "difference":0,
+        "warehouse":"bangalore"
+    },
+    {
+        "id": 5,
+        "gate_pass_number": "CON_2020",
+        "receipt_date": "10-04-2020",
+        "vendor": "Roys Tech",
+        "received_box":"20",
+        "acutal_box":"20",
+        "difference":0,
+        "warehouse":"bangalore"
+    },
+    {
+        "id": 6,
+        "gate_pass_number": "CON_2020",
+        "receipt_date": "10-04-2020",
+        "vendor": "Roys Tech",
+        "received_box":"20",
+        "acutal_box":"20",
+        "difference":0,
+        "warehouse":"bangalore"
+    },
+    {
+        "id": 7,
+        "gate_pass_number": "CON_2020",
+        "receipt_date": "10-04-2020",
+        "vendor": "Roys Tech",
+        "received_box":"20",
+        "acutal_box":"20",
+        "difference":0,
+        "warehouse":"bangalore"
+    },
+    {
+        "id": 8,
+        "gate_pass_number": "CON_2020",
+        "receipt_date": "10-04-2020",
+        "vendor": "Roys Tech",
+        "received_box":"20",
+        "acutal_box":"20",
+        "difference":0,
+        "warehouse":"bangalore"
+    },
+    {
+        "id": 9,
+        "gate_pass_number": "CON_2020",
+        "receipt_date": "10-04-2020",
+        "vendor": "Roys Tech",
+        "received_box":"20",
+        "acutal_box":"20",
+        "difference":0,
+        "warehouse":"bangalore"
+    },
+    {
+        "id": 10,
+        "gate_pass_number": "CON_2020",
+        "receipt_date": "10-04-2020",
+        "vendor": "Roys Tech",
+        "received_box":"20",
+        "acutal_box":"20",
+        "difference":0,
+        "warehouse":"bangalore"
+    },
+    {
+        "id": 11,
+        "gate_pass_number": "CON_2020",
+        "receipt_date": "10-04-2020",
+        "vendor": "Roys Tech",
+        "received_box":"20",
+        "acutal_box":"20",
+        "difference":0,
+        "warehouse":"bangalore"
+    },
+    {
+        "id": 12,
+        "gate_pass_number": "CON_2020",
+        "receipt_date": "10-04-2020",
+        "vendor": "Roys Tech",
+        "received_box":"20",
+        "acutal_box":"20",
+        "difference":0,
+        "warehouse":"bangalore"
+    },
+    {
+        "id": 13,
+        "gate_pass_number": "CON_2020",
+        "receipt_date": "10-04-2020",
+        "vendor": "Roys Tech",
+        "received_box":"20",
+        "acutal_box":"20",
+        "difference":0,
+        "warehouse":"bangalore"
+    },
+    {
+        "id": 14,
+        "gate_pass_number": "CON_2020",
+        "receipt_date": "10-04-2020",
+        "vendor": "Roys Tech",
+        "received_box":"20",
+        "acutal_box":"20",
+        "difference":0,
+        "warehouse":"bangalore"
+    },
+    {
+        "id": 15,
+        "gate_pass_number": "CON_2020",
+        "receipt_date": "10-04-2020",
+        "vendor": "Roys Tech",
+        "received_box":"20",
+        "acutal_box":"20",
+        "difference":0,
+        "warehouse":"bangalore"
+    }
+    ]
+}
